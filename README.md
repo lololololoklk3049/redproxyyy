@@ -16,5 +16,5 @@ A powerful, censorship-bypassing web proxy with a stunning red and black glowing
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/red-proxy.git
+git clone https://github.com/lololololoklk3049/redproxyyy/tree/main
 cd red-proxy
