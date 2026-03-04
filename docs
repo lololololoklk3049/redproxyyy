@@ -1,0 +1,4 @@
+mkdir docs
+git add docs
+git commit -m "fix: add missing docs directory for workflow"
+git push
