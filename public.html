@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Proxy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="/scram/scramjet.all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mercuryworkshop/bare-mux@latest/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mercuryworkshop/epoxy-transport@latest"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <main class="container">
+        <div class="logo-container">
+            <h1 class="logo">
+                <span class="red">R</span>
+                <span class="black">e</span>
+                <span class="red">d</span>
+            </h1>
+            <div class="glow"></div>
+        </div>
+
+        <div class="search-container">
+            <form id="search-form">
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="search-input" 
+                        placeholder="Search or enter website..."
+                        autocomplete="off"
+                    >
+                    <button type="submit">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="quick-links">
+            <a href="#" class="quick-link" data-url="google.com">
+                <span class="icon">G</span>
+                <span>Google</span>
+            </a>
+            <a href="#" class="quick-link" data-url="youtube.com">
+                <span class="icon">YT</span>
+                <span>YouTube</span>
+            </a>
+            <a href="#" class="quick-link" data-url="github.com">
+                <span class="icon">GH</span>
+                <span>GitHub</span>
+            </a>
+            <a href="#" class="quick-link" data-url="reddit.com">
+                <span class="icon">R</span>
+                <span>Reddit</span>
+            </a>
+        </div>
+
+        <div class="info-text">
+            <p>🔒 Private & Secure • Bypass Censorship • Fast & Reliable</p>
+        </div>
+    </main>
+
+    <script src="particles-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
