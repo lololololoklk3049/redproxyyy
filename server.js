@@ -47,6 +47,6 @@ app.all('/proxy/*', async (req, res) => {
 
 const PORT = process.env.PORT || 1337;
 server.listen(PORT, () => {
-    console.log(`🔥 Red Proxy running at http://localhost:${PORT}`);
+    console.log(`🔥 Red Proxy running at https://lololololoklk3049.github.io/redproxyyy/`);
     console.log(`📡 Epoxy/Wisp server ready for connections`);
 });
